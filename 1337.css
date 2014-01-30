@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Neutraface2TextBold';
-    src: url('/assets/fonts/NeutrafaceNo2Text/OpenTypeFonts/Neutra2Text-Demi.otf');
+    src: url('fonts/NeutrafaceNo2Text/OpenTypeFonts/Neutra2Text-Demi.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 .share-reveal{
             
-    background: #fff url('/assets/img/tretton37-logo.png') no-repeat bottom!important;
+    background: #fff url('img/tretton37-logo.png') no-repeat bottom!important;
     position:absolute;
     bottom:20px;
     height:55px;
