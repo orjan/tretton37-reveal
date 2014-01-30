@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Neutraface2TextBold';
+    src: url('/assets/fonts/NeutrafaceNo2Text/OpenTypeFonts/Neutra2Text-Demi.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.share-reveal{
+            
+    background: #fff url('/assets/img/tretton37-logo.png') no-repeat bottom!important;
+    position:absolute;
+    bottom:20px;
+    height:55px;
+    width:230px;
+    display:block;
+    left: 30px;
+    
+}
+
+
+/*style="display: block; position: absolute; bottom: 14px; left: 50%; margin-left: -230px; z-index: 20;"*/
+
+body {
+/*        color: #404040 !important;*/
+        background: #fff !important;
+        font-family: 'Neutra', sans-serif !important;
+        zoom: 0.9;
+  		}
+		
+  		pre {
+  			font-size:0.7em !important;
+  		}
+  		
+  		h1, h2, h3, h4, h5, h6
+  		{
+  			zoom: 0.8;
+  			text-transform:none !important;
+        font-family: 'Neutraface2TextBold', sans-serif !important;
+  		}
+
+      p {
+         color: #6C6759 !important;
+      }
+  		
+      h1 {
+        font-size: 4em !important;
+      }
+    h2{
+         font-size: 3em !important;
+    
+    }
+  		h1, h2
+  		{
+        color: #8DC63F !important;
+        text-shadow: none !important;
+        line-height: 1.2em !important;
+  		}
+
+      span.highlight {
+        color: #8dc63f;
+        font-weight: bold;
+      }
+
+      .slides {
+        width: 50% !important;
+      }
+
+      .reveal section img {
+        background-color: transparent;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        -o-box-shadow: none !important;
+        box-shadow: none !important;
+      }
+      
+      img {max-width:95%;}
+
+      kbd {
+        white-space: nowrap !important;
+        background: #eee;
+        border-style: solid !important;
+        border-color: #ccc #aaa #888 #bbb !important;
+        padding: 2px 6px !important;
+        border-radius: 4px !important;
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2),0 0 0 1px #ffffff inset !important;
+        background-color: #fafafa !important;
+        border-color: #cccccc #cccccc #ffffff !important;
+        border-style: solid solid none !important;
+        border-width: 1px 1px medium !important;
+        font-weight: bold;
+        color: #444444 !important;
+        font-size: 40px !important;
+        height: 55px !important;
+        line-height: 44px !important;
+        white-space: nowrap !important;
+        display: inline-block !important;
+        margin-bottom: 5px !important;
+        margin-left: 10px !important;
+      }
